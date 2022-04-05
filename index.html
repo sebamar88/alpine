@@ -12,6 +12,7 @@
   </head>
   <body>
     <div x-data="{ number: 5 }">
+      
       <div x-data="{ count: 0 }" x-modelable="count" x-model="number">
         <button @click="count++">Increment</button>
         <button @click="count--">Decrement</button>
